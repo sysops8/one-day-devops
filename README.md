@@ -327,6 +327,10 @@ git push origin master
 git tag v1.0
 git push origin v1.0
 ```
+Примечание: если неправильно введен адрес, то его можно поменять через команду:
+```bash
+git remote set-url origin git@github.com:you_user/hello.git
+```
 
 **Теги версий**: Позволяют легко идентифицировать и развертывать конкретные версии приложения.
 
